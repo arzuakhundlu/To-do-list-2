@@ -70,6 +70,8 @@ btn.addEventListener('click',()=>{
     // sort
 
     let arrow = document.querySelector('.arrow');
+    let arrowUp = document.querySelector('.arrowUp');
+    let arrowDown = document.querySelector('.arrowDown');
     let clickArrow = 0;
     arrow.addEventListener('click', () => {
         clickArrow++;
@@ -83,12 +85,16 @@ btn.addEventListener('click',()=>{
             arr.forEach((item,i)=>{
                 span1All[i].innerText = item;
             })
+            arrowUp.style.display = 'none';
+            arrowDown.style.display = 'block';
         }
         else{
             arr.sort().reverse();  
             arr.forEach((item,i)=>{
                 span1All[i].innerText = item;
             })
+            arrowUp.style.display = 'block';
+            arrowDown.style.display = 'none';
             clickArrow = 0 ;
         }
     });

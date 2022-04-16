@@ -89,7 +89,9 @@ h2{
 }
 
 .arrow{
-    margin-left: 18rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 22px;
     color: #CBCBCB;
 }
 
@@ -149,6 +151,10 @@ h2{
     font-size: 16px;
     border-radius: 5px;
     padding: 4px 5px;
+}
+
+.arrowUp{
+    display: none;
 }
 
 
