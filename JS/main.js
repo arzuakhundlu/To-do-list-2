@@ -61,7 +61,7 @@ btn.addEventListener('click',()=>{
         else{
             span1.contentEditable = false;
             span1.style.backgroundColor = '#fff'
-            
+            clickCounter = 0;
         }
         
     });
