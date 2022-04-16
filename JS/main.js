@@ -89,6 +89,7 @@ btn.addEventListener('click',()=>{
             arr.forEach((item,i)=>{
                 span1All[i].innerText = item;
             })
+            clickArrow = 0 ;
         }
     });
 });
