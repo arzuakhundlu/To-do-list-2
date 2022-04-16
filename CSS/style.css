@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.design-line{
+    background-color: #FFDC40;
+    width: 100.3%;
+    height: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.main-box{
+    width: 25rem;
+    border-radius: 10px;
+    border: 1px solid #FFDC40;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 25px ;
+}
+
+.toDoList{
+    margin: 37px;
+}
+
+.toDoInp{
+    width: 313px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 9px 60px 9px 15px;
+    position: absolute;
+}
+
+.inp{
+    position: relative;
+    margin-top: 7px;
+}
+
+.xIcon{
+    position: relative;
+    text-align: center;
+    left: 260px;
+    top: 12px;
+    color: #CBCBCB;
+    font-size: 20px;
+}
+
+.xIcon :hover{
+    color: #833AE0;
+}
+
+.btn{
+    margin-top: 45px;
+    text-align: center;
+}
+
+#list-add{
+    padding: 10px 45px 10px 51px;
+    border-radius: 40px;
+    position: relative;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #833AE0;
+}
+
+.plusIcon{
+    font-size: 33px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #9953F1;
+}
+
+.arrow{
+    margin-left: 18rem;
+    color: #CBCBCB;
+}
+
+.arrow:hover{
+    color: black;
+}
+
+.warning{
+    margin:15px 10px;
+    color: red;
+    display: none;
+}
+
+.list-box{
+    max-height: max-content;
+    width: 313px;
+    margin-top: 45px;
+    border-radius: 10px;
+    border: 2px solid #CBCBCB;
+    background-color:  #ffffff;
+    display: none;
+}
+
+.todolist-task{
+    list-style: none;
+    padding: 10px;
+}
+
+.todolist-task li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 2px 0;
+}
+
+.delete{
+    color: #CBCBCB;
+    font-size: 22px;
+    margin: 0px 10px;
+}
+
+.delete:hover{
+   color:  #833AE0;
+}
+
+.edit{
+    color: #cbcbcb;
+    font-size: 23px;
+}
+
+.edit:hover{
+   color:  #833AE0;
+}
+
+.inp-text{
+    width: 73%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 4px 5px;
+}
+
+
+
+@media screen and (max-width:500px ){
+    .main-box{
+    width: 18rem;
+    }
+    .arrow{
+        margin-left: 90%;
+    }
+    .toDoInp{
+        height: 35px;
+        width: 212px;
+        padding: 9px 53px 9px 6px;
+    }
+    .xIcon{
+        left: 169px;
+        top: 6px;
+        font-size: 20px;
+    }
+    .list-box{
+        width: 212px;
+        margin-top: 30px;
+    }
+    .todolist-task{
+        padding: 2px;
+    }
+    .inp-text{
+        width: 55%;
+        font-size: 14px;
+    }
+    .icons{
+        font-size: 20px;
+    }
+    .delete{
+        margin: 0 6px;
+    }
+    .btn{
+        margin-top: 29px;
+    }
+    .warning{
+        margin: 0px 6px;
+        font-size: 14px;
+    }
+}

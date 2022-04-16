@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-box">
+            <div class="design-line"></div>
+            <div class="toDoList">
+                <h2>To-Do List</h2>
+                <span class="arrow"><i class="fa-solid fa-arrow-down-wide-short"></i></span>
+                <div class="inp">
+                    <input type="text" name="toDoList" class="toDoInp" placeholder="Add new to-do list">
+                    <span class="xIcon"><i class="fa-regular fa-circle-xmark"></i></span>
+                </div> <br>       
+                <div class="p">
+                <p class="warning">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span>  Please enter a value </span>
+                </p> 
+                </div>
+                <div class="list-box">
+                    <ul class="todolist-task"></ul>
+                </div>
+                <div class="btn">
+                    <button id="list-add"><span class="plusIcon"><i class="fa-solid fa-circle-plus"></i></span> Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="JS/main.js"></script>
+</body>
+</html>
